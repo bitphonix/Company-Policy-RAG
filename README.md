@@ -113,7 +113,7 @@ OpenAI API Key
 
 1. **Clone & Setup**
 ```bash
-git clone <repo-url>
+git clone https://github.com/bitphonix/Company-Policy-RAG.git
 cd company-policy-rag
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
@@ -320,28 +320,10 @@ MIT License - feel free to use for your own projects!
 
 ## 👤 Author
 
-**Your Name**  
-[LinkedIn](https://linkedin.com/in/yourprofile) | [GitHub](https://github.com/yourprofile)
+**Tanishk Soni**  
+[LinkedIn](https://linkedin.com/in/tanishk-soni-a94077239) | [GitHub](https://github.com/bitphonix)
 
 *Built as part of RAG learning journey - from zero to production in 5 hours!*
-
----
-
-## 🙏 Acknowledgments
-
-- **LangChain** for the amazing RAG framework
-- **ChromaDB** for reliable vector storage
-- **OpenAI** for GPT-4o-mini
-- **Adda247** for the real-world use case
-
----
-
-## 📞 Contact
-
-Questions? Feedback? Reach out!
-- Email: your.email@example.com
-- LinkedIn: [Your Profile]
-- GitHub Issues: [Create Issue]
 
 ---
 
