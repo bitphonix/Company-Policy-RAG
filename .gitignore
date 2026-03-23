@@ -1,0 +1,47 @@
+# Environments
+company-policy/
+venv/
+.venv/
+env/
+ENV/
+
+# Secrets and environment variables
+.env
+.env.local
+.env.*
+
+# Vector Database
+chroma_db/
+*.sqlite3
+
+# Data (Sensitive documents & generated files)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Python caches & build files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+app.log
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

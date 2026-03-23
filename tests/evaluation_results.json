@@ -1,0 +1,421 @@
+{
+  "retrieval_results": [
+    {
+      "query": "What is the POSH policy?",
+      "category": "POSH",
+      "difficulty": "easy",
+      "precision@5": 0.6,
+      "recall": 1.0,
+      "mrr": 1.0,
+      "strategy": "hybrid",
+      "num_retrieved": 5,
+      "retrieved_sources": [
+        "Adda247 - Posh Policy.pdf",
+        "Adda247 - Posh Policy.pdf",
+        "Adda247 - Posh Policy.pdf"
+      ]
+    },
+    {
+      "query": "Who should I report sexual harassment to?",
+      "category": "POSH",
+      "difficulty": "medium",
+      "precision@5": 1.0,
+      "recall": 1.0,
+      "mrr": 1.0,
+      "strategy": "hybrid",
+      "num_retrieved": 5,
+      "retrieved_sources": [
+        "Adda247 - Posh Policy.pdf",
+        "Adda247 - Posh Policy.pdf",
+        "Adda247 - Posh Policy.pdf"
+      ]
+    },
+    {
+      "query": "How do I claim expenses?",
+      "category": "Expenses",
+      "difficulty": "easy",
+      "precision@5": 0.6,
+      "recall": 1.0,
+      "mrr": 1.0,
+      "strategy": "semantic",
+      "num_retrieved": 5,
+      "retrieved_sources": [
+        "Flexi Allowance Reimbursement (Updated 2022).pdf",
+        "Expense Claim Guidline & Policy.pdf",
+        "Flexi allowance reimbursement Guideline.pdf"
+      ]
+    },
+    {
+      "query": "Can I claim food expenses?",
+      "category": "Expenses",
+      "difficulty": "medium",
+      "precision@5": 0.6,
+      "recall": 1.0,
+      "mrr": 1.0,
+      "strategy": "hybrid",
+      "num_retrieved": 5,
+      "retrieved_sources": [
+        "Flexi Allowance Reimbursement (Updated 2022).pdf",
+        "Flexi allowance reimbursement Guideline.pdf",
+        "Flexi Allowance Reimbursement (Updated 2022).pdf"
+      ]
+    },
+    {
+      "query": "What are the exit procedures?",
+      "category": "Exit",
+      "difficulty": "easy",
+      "precision@5": 0.6,
+      "recall": 1.0,
+      "mrr": 1.0,
+      "strategy": "semantic",
+      "num_retrieved": 5,
+      "retrieved_sources": [
+        "HR03-FAQ-Exit.pdf",
+        "Employee exit Check list.pdf",
+        "Induction PPT_Adda247.pptx (1).pdf"
+      ]
+    },
+    {
+      "query": "How many days is the notice period?",
+      "category": "Exit",
+      "difficulty": "medium",
+      "precision@5": 1.0,
+      "recall": 1.0,
+      "mrr": 1.0,
+      "strategy": "hybrid",
+      "num_retrieved": 5,
+      "retrieved_sources": [
+        "HR03-FAQ-Exit.pdf",
+        "HR03-FAQ-Exit.pdf",
+        "HR03-FAQ-Exit.pdf"
+      ]
+    },
+    {
+      "query": "Can I get salary advance?",
+      "category": "Salary",
+      "difficulty": "easy",
+      "precision@5": 0.2,
+      "recall": 1.0,
+      "mrr": 0.2,
+      "strategy": "hybrid",
+      "num_retrieved": 5,
+      "retrieved_sources": [
+        "HR03-FAQ-Exit.pdf",
+        "Flexi Allowance Reimbursement (Updated 2022).pdf",
+        "Flexi allowance reimbursement Guideline.pdf"
+      ]
+    },
+    {
+      "query": "What is the maximum salary advance amount?",
+      "category": "Salary",
+      "difficulty": "medium",
+      "precision@5": 1.0,
+      "recall": 1.0,
+      "mrr": 1.0,
+      "strategy": "hybrid",
+      "num_retrieved": 5,
+      "retrieved_sources": [
+        "Salary Advance Policy V.1.pdf",
+        "Salary Advance Policy V.1.pdf",
+        "Salary Advance Policy V.1.pdf"
+      ]
+    },
+    {
+      "query": "What is the attendance policy?",
+      "category": "Attendance",
+      "difficulty": "easy",
+      "precision@5": 1.0,
+      "recall": 1.0,
+      "mrr": 1.0,
+      "strategy": "hybrid",
+      "num_retrieved": 5,
+      "retrieved_sources": [
+        "Metis_HR_Attendance SOP.pdf",
+        "Metis_HR_Attendance SOP.pdf",
+        "Metis_HR_Attendance SOP.pdf"
+      ]
+    },
+    {
+      "query": "Compare POSH and Anti-Bribery policies",
+      "category": "Comparative",
+      "difficulty": "hard",
+      "precision@5": 1.0,
+      "recall": 0.5,
+      "mrr": 1.0,
+      "strategy": "mmr",
+      "num_retrieved": 5,
+      "retrieved_sources": [
+        "Adda - Anti Bribery and Anti Corruption Policy.pdf",
+        "Adda - Anti Bribery and Anti Corruption Policy.pdf",
+        "Adda - Anti Bribery and Anti Corruption Policy.pdf"
+      ]
+    }
+  ],
+  "answer_results": [
+    {
+      "query": "What is the POSH policy?",
+      "category": "POSH",
+      "difficulty": "easy",
+      "has_answer": true,
+      "has_sources": true,
+      "num_sources": 5,
+      "source_accuracy": 1.0,
+      "confidence": "medium",
+      "response_time": 9.700842142105103,
+      "answer_length": 1283
+    },
+    {
+      "query": "Who should I report sexual harassment to?",
+      "category": "POSH",
+      "difficulty": "medium",
+      "has_answer": true,
+      "has_sources": true,
+      "num_sources": 5,
+      "source_accuracy": 1.0,
+      "confidence": "medium",
+      "response_time": 4.590601921081543,
+      "answer_length": 633
+    },
+    {
+      "query": "How do I claim expenses?",
+      "category": "Expenses",
+      "difficulty": "easy",
+      "has_answer": true,
+      "has_sources": true,
+      "num_sources": 5,
+      "source_accuracy": 1.0,
+      "confidence": "high",
+      "response_time": 8.86974811553955,
+      "answer_length": 1912
+    },
+    {
+      "query": "Can I claim food expenses?",
+      "category": "Expenses",
+      "difficulty": "medium",
+      "has_answer": true,
+      "has_sources": true,
+      "num_sources": 5,
+      "source_accuracy": 1.0,
+      "confidence": "medium",
+      "response_time": 2.9374887943267822,
+      "answer_length": 575
+    },
+    {
+      "query": "What are the exit procedures?",
+      "category": "Exit",
+      "difficulty": "easy",
+      "has_answer": true,
+      "has_sources": true,
+      "num_sources": 5,
+      "source_accuracy": 1.0,
+      "confidence": "high",
+      "response_time": 8.716446161270142,
+      "answer_length": 1804
+    },
+    {
+      "query": "How many days is the notice period?",
+      "category": "Exit",
+      "difficulty": "medium",
+      "has_answer": false,
+      "has_sources": true,
+      "num_sources": 5,
+      "source_accuracy": 1.0,
+      "confidence": "medium",
+      "response_time": 2.437433958053589,
+      "answer_length": 342
+    },
+    {
+      "query": "Can I get salary advance?",
+      "category": "Salary",
+      "difficulty": "easy",
+      "has_answer": true,
+      "has_sources": true,
+      "num_sources": 5,
+      "source_accuracy": 1.0,
+      "confidence": "medium",
+      "response_time": 4.043898820877075,
+      "answer_length": 828
+    },
+    {
+      "query": "What is the maximum salary advance amount?",
+      "category": "Salary",
+      "difficulty": "medium",
+      "has_answer": true,
+      "has_sources": true,
+      "num_sources": 5,
+      "source_accuracy": 1.0,
+      "confidence": "medium",
+      "response_time": 2.6046249866485596,
+      "answer_length": 559
+    },
+    {
+      "query": "What is the attendance policy?",
+      "category": "Attendance",
+      "difficulty": "easy",
+      "has_answer": true,
+      "has_sources": true,
+      "num_sources": 5,
+      "source_accuracy": 1.0,
+      "confidence": "medium",
+      "response_time": 9.059640884399414,
+      "answer_length": 1760
+    },
+    {
+      "query": "Compare POSH and Anti-Bribery policies",
+      "category": "Comparative",
+      "difficulty": "hard",
+      "has_answer": false,
+      "has_sources": true,
+      "num_sources": 5,
+      "source_accuracy": 0.5,
+      "confidence": "high",
+      "response_time": 2.257024049758911,
+      "answer_length": 403
+    }
+  ],
+  "strategy_comparisons": [
+    {
+      "query": "What is the POSH policy?",
+      "strategies": {
+        "semantic": {
+          "relevant_docs": 3,
+          "total_docs": 5,
+          "precision": 0.6
+        },
+        "keyword": {
+          "relevant_docs": 1,
+          "total_docs": 5,
+          "precision": 0.2
+        },
+        "hybrid": {
+          "relevant_docs": 3,
+          "total_docs": 5,
+          "precision": 0.6
+        },
+        "mmr": {
+          "relevant_docs": 1,
+          "total_docs": 5,
+          "precision": 0.2
+        }
+      },
+      "best_strategy": "semantic",
+      "best_precision": 0.6
+    },
+    {
+      "query": "Who should I report sexual harassment to?",
+      "strategies": {
+        "semantic": {
+          "relevant_docs": 5,
+          "total_docs": 5,
+          "precision": 1.0
+        },
+        "keyword": {
+          "relevant_docs": 4,
+          "total_docs": 5,
+          "precision": 0.8
+        },
+        "hybrid": {
+          "relevant_docs": 5,
+          "total_docs": 5,
+          "precision": 1.0
+        },
+        "mmr": {
+          "relevant_docs": 4,
+          "total_docs": 5,
+          "precision": 0.8
+        }
+      },
+      "best_strategy": "semantic",
+      "best_precision": 1.0
+    },
+    {
+      "query": "How do I claim expenses?",
+      "strategies": {
+        "semantic": {
+          "relevant_docs": 3,
+          "total_docs": 5,
+          "precision": 0.6
+        },
+        "keyword": {
+          "relevant_docs": 0,
+          "total_docs": 5,
+          "precision": 0.0
+        },
+        "hybrid": {
+          "relevant_docs": 3,
+          "total_docs": 5,
+          "precision": 0.6
+        },
+        "mmr": {
+          "relevant_docs": 3,
+          "total_docs": 5,
+          "precision": 0.6
+        }
+      },
+      "best_strategy": "semantic",
+      "best_precision": 0.6
+    },
+    {
+      "query": "Can I claim food expenses?",
+      "strategies": {
+        "semantic": {
+          "relevant_docs": 2,
+          "total_docs": 5,
+          "precision": 0.4
+        },
+        "keyword": {
+          "relevant_docs": 3,
+          "total_docs": 5,
+          "precision": 0.6
+        },
+        "hybrid": {
+          "relevant_docs": 3,
+          "total_docs": 5,
+          "precision": 0.6
+        },
+        "mmr": {
+          "relevant_docs": 1,
+          "total_docs": 5,
+          "precision": 0.2
+        }
+      },
+      "best_strategy": "keyword",
+      "best_precision": 0.6
+    },
+    {
+      "query": "What are the exit procedures?",
+      "strategies": {
+        "semantic": {
+          "relevant_docs": 3,
+          "total_docs": 5,
+          "precision": 0.6
+        },
+        "keyword": {
+          "relevant_docs": 4,
+          "total_docs": 5,
+          "precision": 0.8
+        },
+        "hybrid": {
+          "relevant_docs": 3,
+          "total_docs": 5,
+          "precision": 0.6
+        },
+        "mmr": {
+          "relevant_docs": 2,
+          "total_docs": 5,
+          "precision": 0.4
+        }
+      },
+      "best_strategy": "keyword",
+      "best_precision": 0.8
+    }
+  ],
+  "summary": {
+    "avg_precision": 0.76,
+    "avg_recall": 0.95,
+    "avg_mrr": 0.9199999999999999,
+    "answer_rate": 0.8,
+    "source_accuracy": 0.95,
+    "avg_response_time": 5.5217749834060665
+  }
+}
