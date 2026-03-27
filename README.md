@@ -49,7 +49,7 @@ Built an intelligent assistant that can answer questions about 17+ company polic
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                         Client Layer                             │
+│                         Client Layer                            │
 │  ┌──────────────────┐              ┌──────────────────┐         │
 │  │  Streamlit UI    │              │  API Clients     │         │
 │  │  (Frontend)      │              │  (JS/Python/cURL)│         │
@@ -59,12 +59,12 @@ Built an intelligent assistant that can answer questions about 17+ company polic
             └──────────────┬───────────────────┘
                            │
 ┌──────────────────────────┼─────────────────────────────────────┐
-│                   FastAPI Backend (REST API)                    │
+│                   FastAPI Backend (REST API)                   │
 │  ┌────────────────────────────────────────────────────────┐    │
-│  │  • Authentication & Rate Limiting                       │    │
-│  │  • Request Validation (Pydantic)                        │    │
-│  │  • Query Processing & Routing                           │    │
-│  │  • Response Caching (Redis)                             │    │
+│  │  • Authentication & Rate Limiting                      │    │
+│  │  • Request Validation (Pydantic)                       │    │
+│  │  • Query Processing & Routing                          │    │
+│  │  • Response Caching (Redis)                            │    │
 │  └────────────────────────────────────────────────────────┘    │
 └──────────────────────────┬─────────────────────────────────────┘
                            │
@@ -79,12 +79,12 @@ Built an intelligent assistant that can answer questions about 17+ company polic
           ▼                ▼               ▼
 ┌──────────────────────────────────────────────────┐
 │         Multi-Strategy Retrieval Engine          │
-│  ┌──────────┬──────────┬─────────┬──────────┐  │
-│  │ Semantic │ Keyword  │ Hybrid  │   MMR    │  │
-│  │ (Vector) │  (BM25)  │  (RRF)  │ (Diverse)│  │
-│  └──────────┴──────────┴─────────┴──────────┘  │
+│  ┌──────────┬──────────┬─────────┬──────────┐    │
+│  │ Semantic │ Keyword  │ Hybrid  │   MMR    │    │
+│  │ (Vector) │  (BM25)  │  (RRF)  │ (Diverse)│    │
+│  └──────────┴──────────┴─────────┴──────────┘    │
 │              ┌────────────────┐                  │
-│              │  Cross-Encoder │ ← Reranking     │
+│              │  Cross-Encoder │ ← Reranking      │
 │              │   Reranking    │                  │
 │              └────────────────┘                  │
 └──────────────────┬───────────────────────────────┘
